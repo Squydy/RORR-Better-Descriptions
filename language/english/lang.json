@@ -623,7 +623,7 @@
 			
 			"viewAccessibility" : "Accessibility Options",
 			"viewAccessibility.desc" : "View additional control and accessibility options.",
-			"headerAccessibility" : "%s's Accesssibility Options",
+			"headerAccessibility" : "%s's Accessibility Options",
 			"headerAccessibilityDefault" : "Default Accessibility Options",
 			
 			"rapidFire" : "Rapid Fire",
@@ -1073,8 +1073,8 @@
 		},
 		"mortarTube" : {
 			"name" : "Mortar Tube",
-			"pickup" : "<y>9%</c> chance on hit to fire a mortar for <y>170% <c_stack>(+170% per stack) <y>TOTAL damage</c>.",
-			"description" : "<y>9%</c> chance on hit to fire a mortar for <y>170% <c_stack>(+170% per stack) <y>TOTAL damage</c>.",
+			"pickupChance to launch a mortar.", to fire a mortar for <y>170% <c_stack>(+170% per stack) <y>TOTAL damage</c>.",
+			 to fire a mortar for <y>170% <c_stack>(+170% per stack) <y>TOTAL damage</c>.",
 			"destination" : "437 West,\nOld Bunker,\nEarth",
 			"date" : "5/19/1946",
 			"story" : "Well, uh.. it's a little outdated. You stick explosives down the end, then you fire the explosive. With more explosives. If you're trying to reduce your injury rate, don't use these. \n\nOther than its archaic design, the mortar tube is actually pretty decent if you get a lot of them in a battery. Can blanket a big area, like [REDACTED]. I suppose you can beat them with the tube afterwards."
@@ -1554,8 +1554,8 @@
 			"priority" : "<r>High Priority/Biological</c>"
 		},
 		"theOlLopper" : {
-			"name" : "The Ol' Lopper",
-			"pickup" : "Deal <y>bonus damage</c> to enemies with lower health, up to <y>+60% <c_stack>(+60% per stack) <y>damage</c>.",
+			"pickupEnemies take more damage at lower health.",
+			"pickup" : "Enemies take more damage at lower health.",
 			"description" : "Deal <y>bonus damage</c> to enemies with lower health, up to <y>+60% <c_stack>(+60% per stack) <y>damage</c>.",
 			"destination" : "Box 11,\nSues Drive,\nJupiter",
 			"date" : "3/2/2056",
@@ -1691,7 +1691,7 @@
 			"description" : "Place a <b>marble gate</c>. <b>Teleport back</c> to the gate by activating again.",
 			"destination" : "King Street,\nTrans. Ctr,\nUnknown",
 			"date" : "11/28/2056",
-			"story" : "Carrara marble is very hard to find these days. It's been very popular since Ancient Rome; however, most deposits ran out, so a chunck of Carrara marble marks up a pretty price. I'm thinking $800,000 for the amount I'm offering. \n\nYou can make those sculptures you've always dreamed of."
+			"story" : "Carrara marble is very hard to find these days. It's been very popular since Ancient Rome; however, most deposits ran out, so a chunk of Carrara marble marks up a pretty price. I'm thinking $800,000 for the amount I'm offering. \n\nYou can make those sculptures you've always dreamed of."
 		},
 		"sawmerang" : {
 			"name" : "Sawmerang",
@@ -2363,7 +2363,7 @@
 		"wisp.name" : "Wisp",
 		"wisp.story" : "Characterized by their constant flame, the Wisps are not living beings. Each Wisp has a mask in its center, where all the fire erupts from. The Wisps are able to concentrate their heat into a long range heat blast, capable of scorching anything in its path. On taking heavy damage, the fuel powering the Wisp detonates, sending the mask soaring clear through the air.\n\nHow they function is a mystery to me. While I've seen 'deactivated' masks all around this world, the only time I've spotted Wisps is around me, as if someone creates them specifically to kill me..",
 		"greaterWisp.name" : "Greater Wisp",
-		"greaterWisp.story" : "Oh lord. These.. Greater Wisps, as I have grown to call them, are absolutely terrifying to face. Tougher then the Rock Golem, faster then the Lemurian, and harder hitting then both combined. Unlike the lesser Wisps, the Greater Wisp has two arms capable of typical motion. They burn a brilliant green which pierces straight though my sun visor.\n\nTheir combat abilities are unprecedented; I can be clear 200m away, and they still manage to hit me square in the chest. I must stay hidden.. before they find me again.",
+		"greaterWisp.story" : "Oh lord. These.. Greater Wisps, as I have grown to call them, are absolutely terrifying to face. Tougher than the Rock Golem, faster then the Lemurian, and harder hitting then both combined. Unlike the lesser Wisps, the Greater Wisp has two arms capable of typical motion. They burn a brilliant green which pierces straight though my sun visor.\n\nTheir combat abilities are unprecedented; I can be clear 200m away, and they still manage to hit me square in the chest. I must stay hidden.. before they find me again.",
 		"sandCrab.name" : "Sand Crab",
 		"sandCrab.story" : "A few hours after my crash, I finally decided to investigate the nearby area. As I moved past a particularly large mound of sand, it began to shift and roar. From it erupted a giant crab-like beast, standing above me at 10' with claws the size of a small man. The giant crab moves surprisingly fast for its size; the foliage growing on its back indicates that they stay still for long periods of time. This crab is either extremely patient or hibernates regularly.\n\nAfter exhausting my supplies in taking it down, I salvaged what meat I could. Very chewy, but not unpleasant. Looking across the beach, I spot many similar mounds of sand. I must keep moving; daylight is coming.",
 		"jellyfish.name" : "Jellyfish",
@@ -3339,7 +3339,7 @@
 			"description" : "The <y>Artificer</c> uses her elemental abilities to defeat her enemies with precision.  By raising <y>Frost Barriers</c>, she's able to keep foes at bay in order to prepare <y>Charged Nanobombs</c>, or to escape into the optimal range for her flurry of <y>Flame Chakrams</c>.",
 			"name" : "Artificer",
 			"nameUpper" : "ARTIFICER",
-			"story" : "<ul>Passenger Details:\n<y>[Business Class]\n\n<ul>Luggage & Equipment:</c>\nHigh Court passenger equipped with standard ENV suit. Due to UES relations with the High Court and its donors, both the ENV suit itself and the individual's carry-on have had security checks waived. Passenger willingly attached electrical auto-nullifiers to both of their handheld generators, though lights remained active even after magnetized. Passenger requested to have various analytical devices scanned and recorded through security gates, though the exact nature of these devices was unable to be ascertained by security personnel. <ul>(See security recall for personnel notes.)</c>\n\n<b>[SECURITY RECALL]</c>\n<ul>[Note A1a]</c> Device 1 recorded as a foreign generator in the shape of a titration flask. Passed through x-rays safely, though the resulting image was warped.\n<ul>[Note A1b]</c> Device 2 unabled to be lifted by security personnel. High Court passenger assisted in placing in loading bay. Device appeared to be a solid steel cube with no discernible markings.\n<ul>[Note A1c]</c> Individual requested Device 3 not be passed through x-ray terminal. Recorded as 'additional helmet'.\n<ul>[Note A1d]</c> Device 4 recorded as a chest filled with elemental samples.",
+			"story" : "<ul>Passenger Details:\n<y>[Business Class]\n\n<ul>Luggage & Equipment:</c>\nHigh Court passenger equipped with standard ENV suit. Due to UES relations with the High Court and its donors, both the ENV suit itself and the individual's carry-on have had security checks waived. Passenger willingly attached electrical auto-nullifiers to both of their handheld generators, though lights remained active even after magnetized. Passenger requested to have various analytical devices scanned and recorded through security gates, though the exact nature of these devices was unable to be ascertained by security personnel. <ul>(See security recall for personnel notes.)</c>\n\n<b>[SECURITY RECALL]</c>\n<ul>[Note A1a]</c> Device 1 recorded as a foreign generator in the shape of a titration flask. Passed through x-rays safely, though the resulting image was warped.\n<ul>[Note A1b]</c> Device 2 unable to be lifted by security personnel. High Court passenger assisted in placing in loading bay. Device appeared to be a solid steel cube with no discernible markings.\n<ul>[Note A1c]</c> Individual requested Device 3 not be passed through x-ray terminal. Recorded as 'additional helmet'.\n<ul>[Note A1d]</c> Device 4 recorded as a chest filled with elemental samples.",
             "id" : "Travel ID: F4E41434C4F465",
             "departure"  : "<y>Departure:</c>\nHigh Court Outpost E1,\n[REDACTED]",
             "arrival" : "<y>Destination:</c>\n[REDACTED]"
@@ -3512,7 +3512,7 @@
 		"unlock_sight.name" : "Iron Sights",
 		"unlock_sight.description" : "Sniper: 1-shot kill 10 enemies consecutively.",
 		"unlock_sniper_z2.name" : "Empty Pockets",
-		"unlock_sniper_z2.description" : "Sniper: Beat the third stage without any players collecting items or equipment.",
+		"unlock_sniper_z2.description" : "Sniper: Beat the the first three stages without any players collecting items or equipment.",
 		"unlock_sniper_c2.name" : "Siiick",
 		"unlock_sniper_c2.description" : "Sniper: Kill Providence while backflipping.",
 		"unlock_acrid.name" : "The Experiment",
@@ -3522,7 +3522,7 @@
 		"unlock_leech.name" : "Catchy",
 		"unlock_leech.description" : "Acrid: Spread Epidemic to 25 enemies.",
 		"unlock_acrid_z2.name" : "Broken Continuity",
-		"unlock_acrid_z2.description" : "Acrid: Kill Acrid in less than 15 seconds.",
+		"unlock_acrid_z2.description" : "Acrid: Kill caged Acrid in less than 15 seconds.",
 		"unlock_dios.name" : "Sole Survivor",
 		"unlock_dios.description" : "Die 50 times.",
 		"unlock_foot.name" : "Last Wish",
