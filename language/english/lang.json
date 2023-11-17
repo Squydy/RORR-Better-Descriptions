@@ -1073,8 +1073,8 @@
 		},
 		"mortarTube" : {
 			"name" : "Mortar Tube",
-			"pickupChance to launch a mortar.", to fire a mortar for <y>170% <c_stack>(+170% per stack) <y>TOTAL damage</c>.",
-			 to fire a mortar for <y>170% <c_stack>(+170% per stack) <y>TOTAL damage</c>.",
+			"pickup" : "<y>9%</c> chance on hit to fire a mortar for <y>170% <c_stack>(+170% per stack) <y>TOTAL damage</c>.",
+			"description" : "<y>9%</c> chance on hit to fire a mortar for <y>170% <c_stack>(+170% per stack) <y>TOTAL damage</c>.",
 			"destination" : "437 West,\nOld Bunker,\nEarth",
 			"date" : "5/19/1946",
 			"story" : "Well, uh.. it's a little outdated. You stick explosives down the end, then you fire the explosive. With more explosives. If you're trying to reduce your injury rate, don't use these. \n\nOther than its archaic design, the mortar tube is actually pretty decent if you get a lot of them in a battery. Can blanket a big area, like [REDACTED]. I suppose you can beat them with the tube afterwards."
@@ -1554,8 +1554,8 @@
 			"priority" : "<r>High Priority/Biological</c>"
 		},
 		"theOlLopper" : {
-			"pickupEnemies take more damage at lower health.",
-			"pickup" : "Enemies take more damage at lower health.",
+			"name" : "The Ol' Lopper",
+			"pickup" : "Deal <y>bonus damage</c> to enemies with lower health, up to <y>+60% <c_stack>(+60% per stack) <y>damage</c>.",
 			"description" : "Deal <y>bonus damage</c> to enemies with lower health, up to <y>+60% <c_stack>(+60% per stack) <y>damage</c>.",
 			"destination" : "Box 11,\nSues Drive,\nJupiter",
 			"date" : "3/2/2056",
